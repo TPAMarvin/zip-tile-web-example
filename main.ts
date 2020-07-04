@@ -25,7 +25,7 @@ input.onButtonPressed(Button.B, function () {
     tileDisplay.scrollText(
     "I am a ZIP Tile",
     Kitronik_Zip_Tile.TextDirection.Left,
-    35,
+    50,
     Kitronik_Zip_Tile.TextStyle.Background,
     Kitronik_Zip_Tile.colors(ZipLedColors.Green),
     Kitronik_Zip_Tile.colors(ZipLedColors.White)
@@ -37,6 +37,7 @@ let rainbowFlag = 0
 rainbowFlag = 1
 colourFlag = 0
 tileDisplay = Kitronik_Zip_Tile.createZIPTileDisplay(1, 1, Kitronik_Zip_Tile.UBitLocations.Hidden)
+tileDisplay.setBrightness(40)
 tileDisplay.showRainbow(1, 360)
 tileDisplay.show()
 basic.forever(function () {
