@@ -25,7 +25,7 @@ input.onButtonPressed(Button.B, function () {
     tileDisplay.scrollText(
     "I am a ZIP Tile",
     Kitronik_Zip_Tile.TextDirection.Left,
-    50,
+    100,
     Kitronik_Zip_Tile.TextStyle.Background,
     Kitronik_Zip_Tile.colors(ZipLedColors.Green),
     Kitronik_Zip_Tile.colors(ZipLedColors.White)
